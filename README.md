@@ -254,7 +254,6 @@ This repository contains a personal collection of Bash aliases for enhanced term
 | `terminal`     | Launch `tmux`. |
 | `rss`          | Launch Newsboat RSS reader. |
 | `xlm` / `btc` / `ada` | Check cryptocurrency prices using `rate.sx`. |
-| `bible`        | Run `bible.sh` script. |
 | `dict`         | Dictionary lookup using `dict`. |
 | `ls`           | Enable colorized output for `ls`. |
 | `delugestart`  | Start `deluged`, wait, and open console. |
@@ -329,7 +328,7 @@ This alias list is personal-use focused and shared under [MIT License](LICENSE) 
 
 ### 🔧 Setup
 
-To enable these aliases, add them to your `~/.bash_aliases` or `~/.bashrc`, or add this file to your home dir as .bash_aliases and add the following lines to your .bashrc file:
+To enable these aliases, add them to your `~/.bash_aliases` or `~/.bashrc`, or add this file to your home dir as .bash_aliases and add the following lines to your .bashrc file.
 
 ```
 if [ -f ~/.bash_aliases ]; then
@@ -338,4 +337,5 @@ fi
 ```
 
 Then run `source ~/.bashrc` to enable.
+
 ---
