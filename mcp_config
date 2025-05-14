@@ -1,0 +1,55 @@
+# === mcp.config ===
+
+# General
+ZIP_CODE="12345"
+DOWNLOADS_DIR="$HOME/Downloads"
+YOUTUBE_FOLDER="$HOME/Videos/YouTube"
+YOUTUBE_PLAYLIST="https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID"
+PATH_TO_NEWSBOAT_URL="$HOME/.newsboat/urls"
+
+# Servers
+SERVER_1="dev-server"
+SERVER_2="prod-server"
+SERVER_3="backup-server"
+
+SERVER_ADMIN_1="user1"
+SERVER_ADMIN_2="user2"
+SERVER_ADMIN_3="user3"
+
+SERVER_IPADDRESS_1="192.168.1.101"
+SERVER_IPADDRESS_2="192.168.1.102"
+SERVER_IPADDRESS_3="192.168.1.103"
+
+SERVER_ADMIN1="admin1"
+SERVER_ADMIN2="admin2"
+SERVER_ADMIN3="admin3"
+SERVER_ADMIN4="admin4"
+
+SERVER_IP1="192.168.1.201"
+SERVER_IP2="192.168.1.202"
+SERVER_IP3="192.168.1.203"
+SERVER_IP4="192.168.1.204"
+
+SERVER_LOCAL_DIR1="/mnt/server1"
+SERVER_LOCAL_DIR2="/mnt/server2"
+SERVER_LOCAL_DIR3="/mnt/server3"
+SERVER_LOCAL_DIR4="/mnt/server4"
+
+# Secret Functions (hidden menu)
+SECRET_FUNCTION1="Recon Tools"
+SECRET_FUNCTION2="Nmap Scan"
+SECRET_FUNCTION3="Payload Builder"
+SECRET_FUNCTION4="Internal Toolkit"
+SECRET_FUNCTION5="SSH Tunnel Setup"
+SECRET_FUNCTION6="Firewall Toggle"
+SECRET_FUNCTION7="Wipe Logs"
+SECRET_FUNCTION8="System Lockdown"
+
+SECRET_FUNCTION_COMMAND1="~/tools/recon.sh"
+SECRET_FUNCTION_COMMAND2="nmap -A -T4 192.168.1.0/24"
+SECRET_FUNCTION_COMMAND3="~/tools/build_payload.sh"
+SECRET_FUNCTION_COMMAND4="~/tools/internal.sh"
+SECRET_FUNCTION_COMMAND5="~/tools/tunnel.sh"
+SECRET_FUNCTION_COMMAND6="sudo ufw enable"
+SECRET_FUNCTION_COMMAND7="sudo rm -rf /var/log/*"
+SECRET_FUNCTION_COMMAND8="~/tools/lockdown.sh"

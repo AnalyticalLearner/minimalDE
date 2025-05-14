@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Define session name
+SESSION="DailyDriver"
+
+# Check if session already exists
+if ! tmux has-session -t "$SESSION" 2>/dev/null; then
+    # Create new detached session and first window
+    tmux new-session -d -s "$SESSION" -n 'Desktop'
+
+    # Create additional windows
+    tmux new-window -t "$SESSION" -n 'Desktop 2'
+    tmux new-window -t "$SESSION" -n 'Development'
+    tmux new-window -t "$SESSION" -n 'Media'
+    tmux new-window -t "$SESSION" -n 'Servers'
+fi
+
+# Attach to the session
+exec tmux attach-session -t "$SESSION"
