@@ -5,7 +5,7 @@
 # Created 2023.6.9
 
 # Load config variables
-CONFIG_FILE="$(dirname "$0")/mcp.config"
+CONFIG_FILE="$(dirname "$0")/mcp_config"
 if [ -f "$CONFIG_FILE" ]; then
   source "$CONFIG_FILE"
 else
